@@ -1,0 +1,55 @@
+{
+    "fire": {
+        "weaknesses": ["demonic", "fire","air","earth","water"],
+        "effective": ["plague","undead","ice","nature"]
+    },
+    "water": {
+        "weaknesses": ["plague","air","nature","water","ice"],
+        "effective": ["undead","fire","earth"]
+    },
+    "energy": {
+        "weaknesses": ["undead","earth","plague","energy"],
+        "effective": ["cosmic","demonic","water","air","light"]
+    },
+    "undead": {
+        "weaknesses": ["cosmic","plague","light","fire"],
+        "effective": ["undead","energy","nature"]
+    },
+    "nature": {
+        "weaknesses": ["cosmic","undead","plague","fire"],
+        "effective": ["light","water","earth"]
+    },
+    "cosmic": {
+        "weaknesses": ["energy", "earth"],
+        "effective": ["cosmic","demonic","plague","undead"]
+    },
+    "plague": {
+        "weaknesses": ["cosmic","demonic","plague","undead","fire"],
+        "effective": ["energy","water","earth","nature"]
+    },
+    "demonic": {
+        "weaknesses": ["cosmic","undead","light","shadow","water"],
+        "effective": ["demonic","energy","plague"]
+    },
+    "light": {
+        "weaknesses": ["light","energy","nature", "air"],
+        "effective": ["demonic","undead","shadow"]
+    },
+    "shadow": {
+        "weaknesses": ["demonic","shadow","nature","ice"],
+        "effective": ["light","undead","fire"]
+    },
+    "ice": {
+        "weaknesses": ["fire","energy","undead","earth"],
+        "effective": ["plague","water","air","nature"]
+    },
+    "earth": {
+        "weaknesses": ["undead","shadow","light","earth"],
+        "effective": ["fire","enery","ice","air"]
+    },
+    "air": {
+        "weaknesses": ["shadow","light","ice","earth"],
+        "effective": ["fire","water","nature"]
+    }
+    
+}

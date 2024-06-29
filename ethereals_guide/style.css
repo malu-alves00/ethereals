@@ -1,0 +1,38 @@
+html {
+    background-color: #16161c;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin:0;
+    line-height: 2;
+
+}
+
+.navbar{
+    height:10vh;
+    border: 0.1vh solid white;
+    border-width: 0 0 0.1vh 0;
+    font-weight: bold;
+
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+.nav-item {
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item:hover {
+    background-color: #6d568c;
+    cursor:pointer;
+    color: #2c1f3d;
+}
+
+.page-container{
+    padding:2vw;
+}

@@ -1,0 +1,71 @@
+{
+    "crovun": {
+        "name": "Crovun",
+        "image": "../imagens/ethereals/crovun.png",
+        "type": ["plague"],
+        "moveset": {
+        },
+        "base_stats": {
+            "strength": 10,
+            "arcana": 30,
+            "defense": 10,
+            "ethereal_defense": 30,
+            "speed": 20,
+            "life": 30
+        },
+        "stats_levelup": {
+            "strength": 1,
+            "arcana": 2,
+            "defense": 1,
+            "ethereal_defense": 3,
+            "speed": 2,
+            "life": 4
+        }
+    },
+    "mumun": {
+        "name": "Mumun",
+        "image": "../imagens/ethereals/mumun.png",
+        "type": ["demonic"],
+        "moveset": {
+        },
+        "base_stats": {
+            "strength": 30,
+            "arcana": 10,
+            "defense": 20,
+            "ethereal_defense": 20,
+            "speed": 20,
+            "life": 25
+        },
+        "stats_levelup": {
+            "strength": 3,
+            "arcana": 1,
+            "defense": 2,
+            "ethereal_defense": 2,
+            "speed": 2,
+            "life": 3
+        }
+    },
+    "luxun": {
+        "name": "Luxun",
+        "image": "../imagens/ethereals/luxun.png",
+        "type": ["cosmic"],
+        "moveset": {
+        },
+        "base_stats": {
+            "strength": 10,
+            "arcana": 40,
+            "defense": 10,
+            "ethereal_defense": 10,
+            "speed": 30,
+            "life": 25
+        },
+        "stats_levelup": {
+            "strength": 1,
+            "arcana": 3,
+            "defense": 1,
+            "ethereal_defense": 3,
+            "speed": 2,
+            "life": 3
+        }
+    }
+}

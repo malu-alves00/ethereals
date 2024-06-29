@@ -1,0 +1,18 @@
+{
+    "impact": {
+        "id": 0,
+        "name": "Impact",
+        "type": ["normal", "physical"],
+        "damage": 10,
+        "effects": {}
+    },
+    "intimidate": {
+        "id": 1,
+        "name": "Intimidate",
+        "type": ["normal", "debufff"],
+        "damge": 0,
+        "effects": { 
+            "0": [0, 10]
+        } 
+    }
+}

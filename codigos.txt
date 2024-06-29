@@ -1,0 +1,13 @@
+em moves.json, os buffs/debuffs têm os seguintes códigos:
+
+0: diminuir ataque físico
+1: diminuir ataque etéreo
+2: diminuir defesa física
+3: diminur defesa etérea
+4: diminuir velocidade
+
+5: aumentar ataque físico
+6: aumentar ataque etéreo
+7: aumentar defesa física
+8: aumentar defesa etérea
+9: aumentar velocidade
